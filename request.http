@@ -1,0 +1,12 @@
+### list of messages
+Get http://localhost:3000/messages
+### create messages
+POST  http://localhost:3000/messages
+Content-type: application/json
+
+{
+
+    "content": "second  messages after DI"
+}
+### get particular message
+Get http://localhost:3000/messages/791
